@@ -4,7 +4,10 @@
     <input type="text" v-model="newtodo" @keyup.enter="addtodo" placeholder="ADD TODO" autocomplete="off">
     <!-- show todo -->
     <ul v-for="todo in todolist" :key="todo.id">
-      <li>{{todo.title}} --- {{todo.completed}}</li>
+      <li>
+        <label>{{todo.title}} --- {{todo.completed}}</label>
+				<button @click="deletetodo(todo)">X</button>
+      </li>
     </ul>
   </div>
 </template>
@@ -26,9 +29,13 @@ export default {
       })
       state.newtodo = ''
     }
+		function deletetodo(todo){
+			state.todolist.splice(state.todolist.indexOf(todo),1)
+		}
     return {
       ...toRefs(state),
-      addtodo
+      addtodo,
+			deletetodo,
     }
   }
 }

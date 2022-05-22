@@ -1,6 +1,6 @@
 {
   "name": "vue3-todo",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -11,5 +11,20 @@
   "devDependencies": {
     "vite": "^1.0.0-rc.13",
     "@vue/compiler-sfc": "^3.0.4"
-  }
+  },
+  "description": "API used in development",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eq1024/vue3-todo.git"
+  },
+  "keywords": [
+    "vue3"
+  ],
+  "author": "EQ1024",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eq1024/vue3-todo/issues"
+  },
+  "homepage": "https://github.com/eq1024/vue3-todo#readme"
 }
