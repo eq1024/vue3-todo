@@ -6,3 +6,4 @@
 - directives
 - computed
 - watchEffect
+- v-bind=$attrs

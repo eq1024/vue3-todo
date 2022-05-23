@@ -5,7 +5,6 @@
 
 <script>
 import todo from './components/todo.vue'
-
 export default {
   name: 'App',
   components: {
