@@ -20,6 +20,9 @@ export default {
 
 <style scoped>
 .select {
-  background-color: pink;
+  margin: 5px;
+  border: solid #666 1px;
+  border-radius: 2px;
+  /* background-color: pink; */
 }
 </style>
