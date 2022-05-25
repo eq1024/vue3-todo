@@ -7,3 +7,4 @@
 - computed
 - watchEffect
 - v-bind=$attrs
+- Composition API
